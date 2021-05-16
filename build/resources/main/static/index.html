@@ -87,9 +87,9 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">포켓몬 도감 사이트</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-fluid" src="assets/img/model1/model1.png" alt="" />
                         </div>
                     </div>
                     <!-- 나중
@@ -142,7 +142,7 @@
         </section>
         <!-- Copyright Section-->
         <div class="copyright py-4">
-            <div class="container text-white">감사합니다</div>
+            <div class="container text-white">감사합니다^^</div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -161,7 +161,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Spring Boot 게시판</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Spring Boot 게시판</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -174,24 +174,22 @@
                                     <hr>
                                     <div class="text-left">
                                         <h4 class="text-secondary">프로젝트에 대해</h4>
-                                        <h6>스프링 부트로 만든 게시판</h6>
-                                        <h6>소셜 로그인, 댓글 서비스와</h6>
-                                        <h6>JPA를 사용해 보았다.</h6>
+                                        <h6>스프링 부트로 만든 기본적인 기능을 갖춘 게시판</h6>
+                                        <h6>소셜 로그인, 댓글 서비스, JPA를 사용해 보았다.</h6>
                                         <hr>
                                         <div class="ml-4">
                                             <a href="#boot-1" class="row">1. 개발 환경</a>
                                             <a href="#boot-2" class="row">2. 파일 구조</a>
                                             <a href="#boot-3" class="row">3. 데이터베이스</a>
-                                            <a href="#boot-4" class="row">4. 특징</a>
+                                            <a href="#boot-4" class="row">4. 주요 내용</a>
                                             <div class="ml-5">
                                                 <a href="#boot-4-1" class="row">4-1. JPA 적용, 페이징</a>
-                                                <a href="#boot-4-2" class="row">4-2. 글 목록 표시</a>
-                                                <a href="#boot-4-3" class="row">4-3. 구글 로그인</a>
-                                                <a href="#boot-4-4" class="row">4-4. 게시글 CRUD</a>
-                                                <a href="#boot-4-5" class="row">4-5. Utterance 적용</a>
-                                                <a href="#boot-4-8" class="row">4-6. 테스트 & 클라우드에 업로드</a>
+                                                <a href="#boot-4-2" class="row">4-2. 구글 로그인</a>
+                                                <a href="#boot-4-3" class="row">4-3. 게시글 CRUD</a>
+                                                <a href="#boot-4-4" class="row">4-4. Utterance 적용</a>
+                                                <a href="#boot-4-5" class="row">4-5. 테스트 & 클라우드에 업로드</a>
                                             </div>
-                                            <a href="#" class="row">5. 보완할 점</a>
+                                            <a href="#boot-5" class="row">5. 보완할 점</a>
                                         </div>
 
                                     </div>
@@ -284,14 +282,14 @@
                                                     <img src="assets/img/boot/boardcontroller.png" class="rounded my-2 img-fluid" rel="boardcontroller"><br>
                                                     삭제, 수정은 세션의 user와 글쓴이가 동일한 경우에만 가능하도록 자바스크립트에서 판단<br>
                                                     <img src="assets/img/boot/saveajax.png" class="rounded my-2 img-fluid" rel="saveajax">
-                                                    <img src="assets/img/boot/updateajax.png" class="rounded my-2 img-fluid float-right" rel="updateajax"><br>
+                                                    <img src="assets/img/boot/updateajax.png" class="rounded my-2 img-fluid" rel="updateajax"><br>
                                                     게시글 작성, 수정 페이지의 textarea에 ckeditor 적용<br>
                                                     <img src="assets/img/boot/boardsave.png" class="rounded my-2" rel="boardsave"><br>
                                                 </mark>
                                             </small>
                                             <hr>
 
-                                            <li id="boot-4-5">Utterance 적용</li>
+                                            <li id="boot-4-4">Utterance 적용</li>
                                             <small>
                                                 <mark>
                                                     댓글 기능을 따로 만들지 않고 깃허브 댓글 서비스인 Utterance를 적용<br>
@@ -303,7 +301,7 @@
                                                 </mark>
                                             </small>
                                             <hr>
-                                            <li id="boot-4-8">클라우드에 프로젝트 업로드</li>
+                                            <li id="boot-4-5">클라우드에 프로젝트 업로드</li>
                                             <small>
                                                 <mark>
                                                     깃허브에 푸시하면 Travis CI로 빌드 테스트<br>
@@ -315,15 +313,17 @@
                                             </small>
                                         </ul>
                                     </div>
+                                    <hr>
                                     <div class="text-left">
                                         <h4 class="text-secondary" id="boot-5">5. 보완할 점</h4>
                                         <ul>
-                                            <li>EC2에서 빌드 시 이따금 멈추는 현상을 해결하지 못함. 프리 티어 메모리 1GB로, 용량이 작아서 일어나는 일으로 추측</li>
+                                            <li>EC2에서 빌드 시 이따금씩 멈추는 현상 있음. 프리 티어 메모리 1GB로, 용량이 작아서 일어나는 일으로 추측</li>
                                             <li>구글 로그인만 적용한 점. 자체 회원가입을 만들거나 또는 다른 OAuth2 로그인을 추가하면 좋을 것 같다. </li>
                                             <li>ckeditor 에디터의 파일 첨부 기능을 활용하지 못했다. 파일을 클라우드에 저장하고 다운받을 수 있는 기능 추가가 필요하다.</li>
                                         </ul>
                                     </div>
                                     <hr>
+
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         닫기
@@ -366,7 +366,7 @@
                                             <a href="#mvc-1" class="row">1. 개발 환경</a>
                                             <a href="#mvc-2" class="row">2. 파일 구조</a>
                                             <a href="#mvc-3" class="row">3. 데이터베이스</a>
-                                            <a href="#mvc-4" class="row">4. 특징</a>
+                                            <a href="#mvc-4" class="row">4. 주요 내용</a>
                                             <div class="ml-5">
                                                 <a href="#mvc-4-1" class="row">4-1. 회원가입 유효성 검사</a>
                                                 <a href="#mvc-4-2" class="row">4-2. 전체 게시글, 댓글수, 조회수 표시</a>
@@ -548,10 +548,12 @@
                                                     <mark>
                                                         서버가 계속 동작하도록 AWS EC2에 프로젝트를 업로드함
                                                         자바, 톰캣 설치 후 WinSCP 프로그램으로 프로젝트 war 파일을 EC2의 톰캣 폴더에 옮김
+                                                        <img src="assets/img/mvc/ec2.png" class="rounded my-2" rel="ec2"><br>
                                                     </mark>
                                                 </small>
                                         </ul>
                                     </div>
+                                    <hr>
                                     <div class="text-left">
                                         <h4 class="text-secondary" id="mvc-5">5. 보완할 점</h4>
                                         <ul>
@@ -586,30 +588,36 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Model 1</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">포켓몬 도감 사이트</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <div>
-                                        <a href="#" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                                        <a href="http://ec2-15-165-229-177.ap-northeast-2.compute.amazonaws.com:8181/Pokemon" target="_blank" class="ml-2"><i class="fas fa-file-alt fa-2x"></i></a>
+                                        <a href="http://ec2-15-165-229-177.ap-northeast-2.compute.amazonaws.com:8888/Pokemon" target="_blank" class="ml-2"><i class="fas fa-file-alt fa-2x"></i></a>
                                     </div>
 
                                     <hr>
                                     <div class="text-left">
                                         <h4 class="text-secondary">프로젝트에 대해</h4>
-                                        <h6>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h6>
-                                        <h6>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</h6>
-                                        <h6>cccccccccccccccccccccccccccccccccccccc</h6>
+                                        <h6>가장 처음으로 만든 웹사이트</h6>
+                                        <h6>뷰와 로직을 구분해서 작성하지 않은 Model 1</h6>
+                                        <h6>포켓몬 정보를 보는 도감과 게시판이 있다.</h6>
+                                        <h6>회원, 포켓몬을 수정할 수 있는 관리자 페이지가 있다.</h6>
                                         <hr>
                                         <div class="ml-4">
                                             <a href="#model1-1" class="row">1. 개발 환경</a>
                                             <a href="#model1-2" class="row">2. 파일 구조</a>
                                             <a href="#model1-3" class="row">3. 데이터베이스</a>
-                                            <a href="#" class="row">4. 프론트엔드 주요 기능</a>
-                                            <a href="#" class="row">5. 백엔드 주요 기능</a>
-                                            <a href="#" class="row">6. 보완할 점</a>
+                                            <a href="#model1-4" class="row">4. 특징</a>
+                                            <div class="ml-5">
+                                                <a href="#model1-4-1" class="row">4-1. 회원가입, 로그인</a>
+                                                <a href="#model1-4-2" class="row">4-2. 메인 페이지</a>
+                                                <a href="#model1-4-3" class="row">4-3. 포켓몬 도감</a>
+                                                <a href="#model1-4-4" class="row">4-4. 게시판</a>
+                                                <a href="#model1-4-5" class="row">4-5. 관리자 페이지</a>
+                                            </div>
+                                            <a href="model1-5" class="row">5. 보완할 점</a>
                                         </div>
 
                                     </div>
@@ -630,18 +638,137 @@
                                     <div class="text-left mb-5" >
                                         <h4 class="text-secondary mb-4" id="model1-2">2. 파일 구조</h4>
                                         <img src="assets/img/model1/file1.png" class="rounded float-left mb-4" rel="file1">
-
                                         <img src="assets/img/model1/file3.png" class="rounded float-right" rel="file3">
-                                        <img src="assets/img/model1/file2.png" class="rounded" rel="file2">
+                                        <img src="assets/img/model1/file2.png" class="rounded mb-4" rel="file2"><br>
+                                        <small class="my-2">
+                                        - Bean은 VO, Mgr은 DAO 역할
+                                        </small>
                                     </div>
                                     <hr>
 
                                     <div class="text-left mb-5" >
-                                        <h4 class="text-secondary mb-4" id="model1-3">3. 데이터베이스</h4>
-                                        <img src="assets/img/model1/file1.png" class="rounded float-left mb-4" rel="file1">
+                                        <h4 class="text-secondary mb-4" id="model1-3">3. 데이터베이스 구조</h4>
+                                        <small class="my-2">
+                                            <img src="assets/img/model1/db1.png"  class="rounded mb-2" rel="model1db">
+                                            <img src="assets/img/model1/db2.png"  class="rounded mb-2" rel="model1db2">
+                                            <img src="assets/img/model1/db3.png"  class="rounded mb-2" rel="model1db3">
+                                            <img src="assets/img/model1/db4.png"  class="rounded mb-2" rel="model1db4">
+                                            <img src="assets/img/model1/db5.png"  class="rounded mb-2" rel="model1db5">
+                                            <img src="assets/img/model1/db6.png"  class="rounded mb-2" rel="model1db6"><br>
+                                            - 포켓몬, 회원, 관리자, 게시글, 포켓몬과 회원을 매칭하는 테이블 총 5개<br>
+                                        </small>
+                                    </div>
+                                    <hr>
 
-                                        <img src="assets/img/model1/file3.png" class="rounded float-right" rel="file3">
-                                        <img src="assets/img/model1/file2.png" class="rounded" rel="file2">
+                                    <div class="text-left mb-5">
+                                        <h4 class="text-secondary mb-4" id="model1-4">4. 특징</h4>
+                                        <ul>
+                                            <li id="model1-4-1">4-1. 회원가입, 로그인</li>
+                                            <small>
+                                                <mark>
+                                                    로그인 여부(세션에 저장되어있는지)에 따른 상태를 스크립트릿을 사용해 페이지에 표시<br>
+                                                    <img src="assets/img/model1/islogin.png" class="rounded my-2 img-fluid" rel="islogin"><br>
+                                                    모든 칸이 유효해야 회원 저장(가입)이 이루어지도록 함<br>
+                                                    <img src="assets/img/model1/sign.png" class="rounded my-2 img-fluid" rel="sign"><br>
+                                                    회원가입 버튼을 클릭하면 아이디 중복 여부, 비밀번호 일치 여부와 이메일을 검사해서 <br>
+                                                    유효하지 않은 항목을 알림<br>
+                                                    <img src="assets/img/model1/idcheck.png" class="rounded my-2" rel="idcheck">
+                                                    <img src="assets/img/model1/idcheck2.png" class="rounded my-2" rel="idcheck2"><br>
+                                                    중복 체크 창에서, 중복이 아닌 경우에만 opener의 함수를 실행해서 유효함을 확인시킴
+                                                    <img src="assets/img/model1/idwindow.png" class="rounded my-2" rel="idwindow">
+                                                    <img src="assets/img/model1/idwindow2.png" class="rounded my-2" rel="idwindow2"><br>
+                                                    회원가입 처리<br>
+                                                    <img src="assets/img/model1/signproc.png" class="rounded my-2" rel="signproc"><br>
+                                                    아이디 저장에 체크하고 로그인하면, 로그아웃 후의 로그인 화면에서 값이 입력되어있게 함<br>
+                                                    <img src="assets/img/model1/login.png" class="rounded my-2" rel="login"><br>
+                                                    로그인 코드<br>
+                                                    <img src="assets/img/model1/loginproc.png" class="rounded my-2" rel="loginproc"><br><!--
+                                                    그리고 이메일을 입력해서 아이디와 비밀번호를 찾을 수 있음<br>
+                                                    <img src="assets/img/model1/find.png" class="rounded my-2" rel="find"><br>
+                                                    <img src="assets/img/model1/findid.png" class="rounded my-2" rel="findid"><br>-->
+                                                </mark>
+                                            </small>
+                                            <hr>
+
+                                            <li id="model1-4-2">4-2. 메인 페이지</li>
+                                            <small>
+                                                <mark>
+                                                    top, bottom 을 제외한 메인 화면엔 포켓몬과 관련된 페이지 링크와 검색칸이 있음<br>
+                                                    포켓몬 이름으로 검색을 하면 해당하는 포켓몬을 나타냄<br>
+                                                    <img src="assets/img/model1/search.png" class="rounded my-2 img-fluid" rel="search"><br>
+                                                    <img src="assets/img/model1/searchresult.png" class="rounded my-2 img-fluid" rel="searchresult"><br>
+                                                    <img src="assets/img/model1/search2.png" class="rounded my-2 img-fluid" rel="search2"><br>
+                                                    <img src="assets/img/model1/search3.png" class="rounded my-2 img-fluid" rel="search3"><br>
+                                                    아래에는 상위 7가지의 인기있는 포켓몬을 표시함(choice 필드로)<br>
+                                                    <img src="assets/img/model1/choice.png" class="rounded my-2 img-fluid" rel="choice"><br>
+                                                    순위 결과를 배열에 담아서 화면에 나타냄<br>
+                                                    <img src="assets/img/model1/choiceproc.png" class="rounded my-2" rel="choiceproc"><br>
+
+                                                </mark>
+                                            </small>
+                                            <hr>
+
+                                            <li id="model1-4-3">4-3. 포켓몬 도감</li>
+                                            <small>
+                                                <mark>
+                                                    포켓몬 시리즈의 지역별로 분류했고 번호로 정렬함<br>
+                                                    <img src="assets/img/model1/region.png" class="rounded my-2" rel="region">
+                                                    <img src="assets/img/model1/pokemon.png" class="rounded my-2 img-fluid" rel="pokemon">
+                                                    게임 속의 도감과 비슷하게 포켓몬들을 나타냄<br>
+                                                    포켓몬 속성에 따라 색을 표시하고, 울음소리와 지역, 간단한 설명을 확인할 수 있음<br>
+                                                    <img src="assets/img/model1/pokedex.png" class="rounded my-2" rel="pokedex">
+                                                    그리고 로그인이 되어있는 상태에서 포켓볼을 클릭하면 색이 바뀌고<br>
+                                                    이 포켓몬들을 따로 모아 볼 수 있음. 이는 메인 페이지 인기도에 반영<br>
+                                                    <img src="assets/img/model1/pokedex2.png" class="rounded my-2" rel="pokedex2">
+                                                    <img src="assets/img/model1/likeproc.png" class="rounded my-2" rel="likeproc">
+                                                    <img src="assets/img/model1/choiceadd.png" class="rounded my-2" rel="choiceadd">
+                                                    <img src="assets/img/model1/choiceupdate.png" class="rounded my-2" rel="choiceupdate">
+                                                </mark>
+                                            </small>
+                                            <hr>
+
+                                            <li id="model1-4-4">4-4. 게시판</li>
+                                            <small>
+                                                <mark>
+                                                    글쓰기 기능이 있는 단순한 게시판으로, 로그인이 된 상태에서 게시글을 쓸 수 있음<br>
+                                                    <img src="assets/img/model1/boardview.png" class="rounded my-2" rel="boardview">
+                                                    <img src="assets/img/model1/boardview2.png" class="rounded my-2" rel="boardview2">
+                                                    <img src="assets/img/model1/board.png" class="rounded my-2" rel="board">
+                                                    <img src="assets/img/model1/getboardlist.png" class="rounded my-2" rel="getboardlist">
+                                                    로그인 상태를 확인<br>
+                                                    <img src="assets/img/model1/write.png" class="rounded my-2" rel="write">
+                                                    세션에 저장된 닉네임과 작성자가 같으면 수정, 삭제 버튼을 표시<br>
+                                                    <img src="assets/img/model1/confirm.png" class="rounded my-2" rel="confirm">
+                                                </mark>
+                                            </small>
+                                            <hr>
+
+                                            <li id="model1-4-5">4-5. 관리자 페이지</li>
+                                            <small>
+                                                <mark>
+                                                    따로 관리자 테이블과 로그인 페이지를 두고, 로그인 시 관리자 페이지로 이동<br>
+                                                    <img src="assets/img/model1/admin.png" class="rounded my-2" rel="admin">
+                                                    관리자 페이지에선 회원과 포켓몬 데이터의 추가, 삭제, 수정이 가능함<br>
+                                                    <img src="assets/img/model1/admin2.png" class="rounded my-2" rel="admin2">
+                                                    <img src="assets/img/model1/admin3.png" class="rounded my-2" rel="admin3">
+                                                    <img src="assets/img/model1/admin4.png" class="rounded my-2" rel="admin4">
+                                                    <img src="assets/img/model1/pokemonupdate.png" class="rounded my-2" rel="pokemonupdate">
+                                                </mark>
+                                            </small>
+                                            <hr>
+
+
+                                        </ul>
+                                    </div>
+                                    <div class="text-left">
+                                        <h4 class="text-secondary" id="model1-5">5. 보완할 점</h4>
+                                        <ul>
+                                            <li>처음 접속시 에러 페이지가 나타날 때가 있다. 이때 새로고침을 하면 정상적인 화면이 뜨지만 이유를 알아내지 못했다.</li>
+                                            <li>css 코드가 정리되지 않았다. 가져온 css 파일과 jsp 파일 안에 적은 코드들을 제대로 파악하지 못한 채 야금야금 고쳤기 때문에, 전체적인 정리가 필요하다.</li>
+                                            <li>jsp 파일에 뷰와 로직이 섞여있다. 그래서 보기에 좋지 않고 수정할 때에도 번거로웠다. 분리하면 좋을 것 같다.</li>
+                                            <li>계획한 페이지를 모두 구현하지 못했다. (게시판, 도감 외 2개 탭) </li>
+                                            <li>전체적으로 아쉬운 점이 많다. 특히 가입, 로그인 등 회원 관리 기능을 더 철저하게 만들지 못해 아쉽다.</li>
+                                        </ul>
                                     </div>
                                     <hr>
 
